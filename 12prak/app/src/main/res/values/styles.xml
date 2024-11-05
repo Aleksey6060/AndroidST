@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#006341</item>
+        <item name="colorPrimaryDark">#00442D</item>
+        <item name="colorAccent">#FFD700</item>
+    </style>
+
+
+    <style name="DetailTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/background_rolex</item>
+    </style>
+</resources>
