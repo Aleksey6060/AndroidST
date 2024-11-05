@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="play_with_bot">Играть с ботом</string>
+    <string name="change_theme">Сменить тему</string>
+    <string name="stats">Статистика</string>
+    <string name="player_turn_x">Ходит игрок X</string>
+    <string name="button_text"> </string>
+</resources>

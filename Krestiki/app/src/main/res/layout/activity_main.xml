@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/windowBackgroundLight">
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player_turn_x"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/textColorPrimaryLight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/themeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_theme"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/textColorPrimaryLight"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/statsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stats"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/textColorPrimaryLight"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp">
+
+        <Switch
+            android:id="@+id/botSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="16dp"
+            android:text="@string/play_with_bot"
+            android:textColor="@color/textColorPrimaryLight"
+            android:layout_gravity="center_horizontal" />
+
+    </FrameLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/button_text"
+            android:contentDescription="Tic Tac Toe Button 1"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/textColorPrimaryLight"
+            android:layout_margin="8dp" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/button_text"
+            android:contentDescription="Tic Tac Toe Button 2"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/textColorPrimaryLight"
+            android:layout_margin="8dp" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/button_text"
+            android:contentDescription="Tic Tac Toe Button 3"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/textColorPrimaryLight"
+            android:layout_margin="8dp" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/button_text"
+            android:contentDescription="Tic Tac Toe Button 4"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/textColorPrimaryLight"
+            android:layout_margin="8dp" />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/button_text"
+            android:contentDescription="Tic Tac Toe Button 5"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/textColorPrimaryLight"
+            android:layout_margin="8dp" />
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/button_text"
+            android:contentDescription="Tic Tac Toe Button 6"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/textColorPrimaryLight"
+            android:layout_margin="8dp" />
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/button_text"
+            android:contentDescription="Tic Tac Toe Button 7"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/textColorPrimaryLight"
+            android:layout_margin="8dp" />
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/button_text"
+            android:contentDescription="Tic Tac Toe Button 8"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/textColorPrimaryLight"
+            android:layout_margin="8dp" />
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/button_text"
+            android:contentDescription="Tic Tac Toe Button 9"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/textColorPrimaryLight"
+            android:layout_margin="8dp" />
+    </GridLayout>
+
+</LinearLayout>
