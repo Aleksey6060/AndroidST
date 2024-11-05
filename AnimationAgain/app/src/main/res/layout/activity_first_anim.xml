@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".first_anim">
+
+
+    <ImageView
+        android:id="@+id/monke_dance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/animation_first_page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/start_but"
+        android:layout_width="165dp"
+
+        android:layout_height="62dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
+        android:text="Старутем"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monke_dance" />
+
+    <Button
+        android:id="@+id/stop_but"
+        android:layout_width="163dp"
+        android:layout_height="55dp"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="68dp"
+        android:text="заканчиваем"
+        app:layout_constraintStart_toEndOf="@+id/start_but"
+        app:layout_constraintTop_toBottomOf="@+id/monke_dance" />
+
+    <Button
+        android:id="@+id/back_to_main"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:text="назад"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monke_dance" />
+</androidx.constraintlayout.widget.ConstraintLayout>

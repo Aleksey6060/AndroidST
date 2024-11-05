@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="second_anim">
+
+    <ImageView
+        android:id="@+id/monkey_flash_bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/f1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/anim_start"
+        android:layout_width="146dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:text="Начать"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monkey_flash_bank" />
+
+    <Button
+        android:id="@+id/anim_stop"
+        android:layout_width="147dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="68dp"
+        android:text="конец"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toEndOf="@+id/anim_start"
+        app:layout_constraintTop_toBottomOf="@+id/monkey_flash_bank" />
+
+    <Button
+        android:id="@+id/back_to_main"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:text="назад"
+        app:layout_constraintEnd_toEndOf="@+id/anim_stop"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toStartOf="@+id/anim_start"
+        app:layout_constraintTop_toBottomOf="@+id/monkey_flash_bank" />
+</androidx.constraintlayout.widget.ConstraintLayout>
